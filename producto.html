@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Productos | Wiss Beauty</title>
+
+<link rel="stylesheet" href="style.css">
+
+<style>
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #edc1e5;
+    margin: 0;
+    padding: 0;
+}
+
+.product{
+    padding: 80px 20px;
+}
+
+.product-content{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.product-title{
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.product-title h1{
+    font-size: 90px;
+    color: rgb(154, 7, 98);
+    font-family: 'Bebas Neue', sans-serif;
+    margin-bottom: 20px;
+}
+
+.product-title p{
+    color: rgb(154, 7, 98);
+    font-size: 18px;
+}
+
+.product-grid{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 40px;
+}
+
+.product-card{
+    background-color: rgb(154, 7, 98);
+    border-radius: 30px;
+    padding: 30px;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.product-card:hover{
+    transform: translateY(-10px);
+}
+
+.product-card img{
+    width: 100%;
+    max-width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 25px;
+    margin-bottom: 20px;
+}
+
+.product-card h2{
+    color: white;
+    margin-bottom: 15px;
+    font-size: 35px;
+}
+
+.price{
+    color: #ffd6f5;
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.product-card p{
+    color: white;
+    line-height: 1.7;
+    font-size: 16px;
+}
+
+@media(max-width:991px){
+
+.product-title h1{
+    font-size: 65px;
+}
+
+.product-grid{
+    grid-template-columns: 1fr;
+}
+
+}
+.header{
+    min-height: auto;
+    padding: 0;
+}
+.menu{
+    position: relative;
+}
+
+</style>
+
+</head>
+<body>
+
+<header class="header">
+
+<div class="menu container">
+
+<a href="index.html" class="logo">
+<img src="images/LOGO sin fondo-Photoroom.png" alt="">
+</a>
+
+<input type="checkbox" id="menu">
+
+<label for="menu">
+<img class="menu-icono" src="images/menu.png" alt="">
+</label>
+
+<nav class="navbar">
+<ul>
+     <li><a href="inicio.html">inicio</a></li>
+<li><a href="servicio.html">servicio</a></li>
+<li><a href="producto.html">producto</a></li>
+<li><a href="contacto.html">contacto</a></li>
+</nav>
+
+</div>
+
+</header>
+<section class="product">
+
+<div class="product-content">
+
+<div class="product-title">
+
+<h1>Nuestros Productos</h1>
+
+<p>
+Descubre productos originales y en tendencia para hidratar, cuidar y resaltar tu belleza.
+</p>
+
+</div>
+
+<div class="product-grid">
+
+<div class="product-card">
+
+<img src="images/eos.imagen.png" alt="">
+
+<h2>Cremas EOS</h2>
+
+<div class="price">RD$1,100</div>
+
+<p>
+Hidratación profunda y un aroma increíble para mantener tu piel suave y radiante todos los días.
+</p>
+
+</div>
+
+<div class="product-card">
+
+<img src="images/gisou.imagen.png" alt="">
+
+<h2>Gisou</h2>
+
+<div class="price">RD$350 c/u</div>
+
+<p>
+Productos perfectos para darle brillo, cuidado y suavidad a tu rutina de belleza.
+</p>
+
+</div>
+
+<div class="product-card">
+
+<img src="images/combo.imagen.png" alt="">
+
+<h2>Combos Especiales</h2>
+
+<div class="price">RD$425 el combo</div>
+
+<p>
+Combina tus productos favoritos y disfruta promociones increíbles en maquillaje e hidratación.
+</p>
+
+</div>
+
+<div class="product-card">
+
+<img src="images/comboeos.imagen.png" alt="">
+
+<h2>Combo EOS + Crema de Mano</h2>
+
+<div class="price">RD$1,800</div>
+
+<p>
+Incluye crema EOS y crema de mano EOS para una hidratación completa y perfecta.
+<br><br>
+Por separado:
+<br>
+Crema EOS RD$1,100
+<br>
+Crema de mano RD$700
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+</body>
+</html>

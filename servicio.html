@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Servicios | Wiss Beauty</title>
+
+<link rel="stylesheet" href="style.css">
+
+<style>
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #edc1e5;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.service{
+    padding: 80px 20px;
+}
+
+.service-content{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.service-title{
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.service-title h1{
+    font-size: 90px;
+    color: rgb(154, 7, 98);
+    font-family: 'Bebas Neue', sans-serif;
+    margin-bottom: 20px;
+}
+
+.service-title p{
+    color: rgb(154, 7, 98);
+    font-size: 18px;
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.8;
+}
+
+.service-box{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    margin-top: 50px;
+}
+
+.box{
+    background-color: rgb(154, 7, 98);
+    padding: 35px;
+    border-radius: 25px;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.box:hover{
+    transform: translateY(-10px);
+}
+
+.box h3{
+    color: white;
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+.box p{
+    color: white;
+    line-height: 1.7;
+    font-size: 16px;
+}
+
+.service-img{
+    width: 100%;
+    max-width: 220px;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 20px;
+    margin: 20px auto;
+    display: block;
+}
+.extra{
+    margin-top: 80px;
+    background-color: rgba(255,255,255,0.4);
+    padding: 50px;
+    border-radius: 30px;
+    text-align: center;
+}
+
+.extra h2{
+    font-size: 55px;
+    color: rgb(154, 7, 98);
+    margin-bottom: 20px;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.extra p{
+    color: rgb(154, 7, 98);
+    font-size: 18px;
+    line-height: 1.8;
+}
+
+.extra-img{
+    width: 100%;
+    max-width: 500px;
+    border-radius: 20px;
+    margin-bottom: 25px;
+}
+
+.redes{
+    margin-top: 60px;
+    text-align: center;
+}
+
+.redes h3{
+    font-size: 40px;
+    color: rgb(154, 7, 98);
+    margin-bottom: 20px;
+}
+
+.redes p{
+    color: rgb(154, 7, 98);
+    font-size: 18px;
+}
+
+.redes span{
+    font-weight: bold;
+}
+
+@media(max-width:991px){
+
+.service-title h1{
+    font-size: 65px;
+}
+
+.service-box{
+    grid-template-columns: 1fr;
+}
+
+.extra{
+    padding: 30px;
+}
+
+.extra h2{
+    font-size: 40px;
+}
+
+}
+.header{
+    min-height: auto;
+    padding: 0;
+}
+.menu{
+    position: relative;
+}
+
+</style>
+
+</head>
+<body>
+
+<header class="header">
+
+<div class="menu container">
+
+<a href="index.html" class="logo">
+<img src="images/LOGO sin fondo-Photoroom.png" alt="">
+</a>
+
+<input type="checkbox" id="menu">
+
+<label for="menu">
+<img class="menu-icono" src="images/menu.png" alt="">
+</label>
+
+<nav class="navbar">
+<ul>
+
+ <li><a href="inicio.html">inicio</a></li>
+<li><a href="servicio.html">servicio</a></li>
+<li><a href="producto.html">producto</a></li>
+<li><a href="contacto.html">contacto</a></li>
+</ul>
+</nav>
+
+</div>
+
+</header>
+<section class="service">
+
+<div class="service-content">
+
+<div class="service-title">
+
+<h1>Nuestros Servicios</h1>
+
+<p>
+En Wiss Beauty ofrecemos productos de maquillaje, 
+hidratación y cuidado personal para ayudarte a resaltar tu 
+belleza con estilo y confianza. Trabajamos con marcas reconocidas 
+y productos en tendencia para que encuentres exactamente lo que buscas.
+</p>
+
+</div>
+
+<div class="service-box">
+
+<div class="box">
+<h3>Maquillaje</h3>
+<p>
+Labiales, glosses, rubores, polvos, rimel y más productos 
+ideales para lograr un maquillaje hermoso y duradero.
+
+<img src="images/servicio.maquillaje.png" alt="" class="service-img">
+</p>
+</div>
+
+<div class="box">
+<h3>Hidratación</h3>
+<p>
+Productos como EOS, Vaseline y cuidado facial pensados 
+para mantener tu piel suave, hidratada y radiante.
+
+<img src="images/servicio.hidratacion.png" alt="" class="service-img">
+</p>
+</div>
+
+<div class="box">
+<h3>Pedidos Personalizados</h3>
+<p>
+Puedes tomar inspiración de nuestras publicaciones
+ en Instagram o pedir exactamente el producto que deseas. 
+ Te ayudamos a encontrar lo que mejor combine contigo.
+
+ <img src="images/personalizado.maquillaje.png" alt="" class="service-img">
+</p>
+</div>
+
+</div>
+
+<div class="extra">
+
+<h2>Tu belleza, tu estilo</h2>
+
+<p>
+En Wiss Beauty queremos que te sientas segura y
+ feliz con cada producto. Nuestro objetivo es ofrecer calidad, 
+ tendencia y atención personalizada para que disfrutes una experiencia única
+  al momento de elegir tus productos favoritos.
+  
+  <img src="images/ig.2.png" alt="" class="extra-img">
+</p>
+
+</div>
+
+<div class="redes">
+
+<h3>Síguenos en Instagram</h3>
+
+<p>
+Descubre nuevos productos, promociones y contenido de belleza en nuestra cuenta:
+<br><br>
+<span>@wissbeauty_</span>
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+</body>
+</html>
